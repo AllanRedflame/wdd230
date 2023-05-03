@@ -1,0 +1,145 @@
+header {
+    background:#000814;
+}
+
+body {
+    background:#003566;
+}
+
+h1 {
+    color:#ffd60a;
+    text-align: center;
+    font-size: 300%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#name {
+    color:#ffd60a;
+    text-align: center;
+    font-size: 250%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#small-view-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    grid-gap: 50px;
+}
+
+#fitts-law-small {
+    grid-column:2;
+    background:#000814;
+    text-align:center;
+
+}
+
+#hicks-law-small {
+    grid-column:3;
+    background:#000814;
+    text-align:center;
+}
+
+#rule-of-thirds-small {
+    grid-column: 4;
+    background:#000814;
+    text-align:center;
+}
+
+
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#ffd60a;
+    text-align:center;
+    font-size:250%;
+}
+
+#fitts-small-picture {
+    width:100%;
+}
+
+#hicks-small-picture {
+    width:100%;
+}
+
+#thirds-small-picture {
+    width: 100%;
+}
+
+p {
+    color:#ffd60a;
+    font-size:150%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color:#ffd60a;
+    font-size:150%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#footer-box {
+    background-color: #000814;
+    grid-column: 2;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #small-view-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #fitts-law-small {
+        grid-column:1;
+        background:#000814;
+        text-align:center;
+    
+    }
+    
+    #hicks-law-small {
+        grid-column:2;
+        background:#000814;
+        text-align:center;
+    }
+
+    #rule-of-thirds-small {
+
+        width: 100%;
+        grid-column-start: span 2;
+        grid-row: 2;
+        background:#000814;
+    }
+    
+
+}
+
+@media screen and (max-width: 480px) {
+    #small-view-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+
+    #fitts-law-small {
+        margin-left: 12.5%;
+        width: 75%;
+        grid-column: 1;
+        grid-row: 1;
+        background:#000814;   
+    }
+    
+    #hicks-law-small {
+        margin-left: 12.5%;
+        width: 75%;
+        grid-column: 1;
+        grid-row: 2;
+        background:#000814;
+    }
+
+    #rule-of-thirds-small {
+        margin-left: 12.5%;
+        width: 75%;
+        grid-column: 1;
+        grid-row: 3;
+        background:#000814;
+    }
+}
