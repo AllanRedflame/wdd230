@@ -1,5 +1,7 @@
 header {
     background:#000814;
+    padding: 5px;
+    margin-bottom: 25px;
 }
 
 body {
@@ -53,6 +55,10 @@ h2 {
     font-size:250%;
 }
 
+img {
+    padding-top: 35px;
+}
+
 #fitts-small-picture {
     width:100%;
 }
@@ -69,6 +75,8 @@ p {
     color:#ffd60a;
     font-size:150%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 a {
@@ -81,6 +89,8 @@ a {
     background-color: #000814;
     grid-column: 2;
     text-align: center;
+    padding: 5px;
+    margin-top: 25px;
 }
 
 
@@ -117,6 +127,7 @@ a {
     #small-view-grid {
         grid-template-columns: 1fr;
         grid-template-rows: 3fr;
+        padding: 20px;
     }
 
     #fitts-law-small {
@@ -141,5 +152,8 @@ a {
         grid-column: 1;
         grid-row: 3;
         background:#000814;
+
     }
 }
+
+
