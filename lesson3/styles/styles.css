@@ -1,0 +1,139 @@
+/*606c38
+dda15e
+fefae0
+283618
+bc6c25 */
+html body {
+    background: #003049;
+}
+
+#header-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background: #780000;
+    margin-bottom:25px;
+}
+
+
+img {
+    grid-column: 1;
+    width: 35%;
+
+}
+
+nav {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    font-size: 275%;
+    margin-top: 25%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #fdf0d5;
+}
+
+
+h1 {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    font-size: 275%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fdf0d5;
+    padding:10px;
+}
+
+#site-purpose {
+    font-family:'Lucida Grande', Geneva, Verdana;
+    font-size: 155%;
+    margin-top: 100px;
+}
+
+#purpose-content {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 115%;
+
+}
+
+footer {
+    background: #780000;
+}
+
+
+weird-green {
+    background: #606c38;
+}
+
+
+
+.main-div {
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+
+#title {
+    grid-column: 2;
+    font-size: 155%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+#title-p {
+    grid-column: 2;
+    font-size: 115%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#logo-p {
+    grid-column: 2;
+    font-size: 155%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
+}
+
+#palette-img {
+    width: 100%;
+}
+
+#palette-p {
+    font-size: 155%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#georgia-p {
+    font-size: 155%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#lucida-p {
+    font-size: 110%;
+    font-family:'Lucida Grande', Geneva, Verdana;
+}
+
+.background-container {
+    grid-column: 2;
+    grid-row: 1;
+    background: #fefae0;
+    width: auto;
+    padding: 50px;
+}
+
+#audience-text h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#audience-text p {
+    font-family:'Lucida Grande', Geneva, Verdana;
+}
+
+#footer-box p {
+    text-align: center;
+    font-size: 150%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #fdf0d5;
+    padding: 25px;
+}
+
