@@ -137,3 +137,13 @@ weird-green {
     padding: 25px;
 }
 
+nav a {
+    text-decoration: none;
+    color:#fdf0d5;
+}
+
+nav a:hover {
+    background-color: #fdf0d5;
+    color: #003049;
+}
+
