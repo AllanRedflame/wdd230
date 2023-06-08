@@ -87,12 +87,19 @@ nav {
 
 }
 
+
+
+
+
+
+
+
+
 .main-div {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     padding: 50px;
-    white-space: 20px;
     grid-gap: 20px;
     
 }
@@ -184,6 +191,13 @@ nav ul a:hover, nav img:hover {
     background-color: #cbb26a;
     color: #2a2a2a;
 }
+
+
+
+
+
+
+
 
 
 footer {
