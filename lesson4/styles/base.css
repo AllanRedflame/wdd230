@@ -20,7 +20,6 @@ html body {
 
 #logo-div {
     display: flex;
-    align-items: top;
     grid-column: 1;
 }
 
@@ -302,4 +301,3 @@ footer img {
 
 }
 }
-
