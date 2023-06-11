@@ -1,0 +1,427 @@
+@media only screen and (max-width: 1079px) and (min-width: 481px) {
+    html body {
+        background: #2a2a2a;
+    }
+    
+    #header-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 4fr 1fr;
+        background: #111111;
+        margin-bottom:25px;
+        height: 250px;
+    
+    }
+
+    #Event-Announcement-Medium {
+        padding: 20px;
+        text-decoration: underline;  
+    }
+    
+    #row-six-join:hover {
+        color: black;
+        background: #cbb26a;
+    }
+
+    #row-six-join {
+        color: #cbb26a;
+        background: #2a2a2a;
+        border-radius: 5px;
+    }
+    
+    #header-container div {
+        margin: auto;
+    }
+    
+    
+    #logo-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #img-img{
+        grid-row: 1;
+        grid-column: 1;
+        width: 25%;
+        margin-left: 25px;
+        margin-top: 32px;
+    }
+    
+    h1 {
+        grid-column: 1;
+        grid-row: 1;
+        margin-top: 30px;
+        font-size: 200%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #cbb26a;
+        line-height: 35px;
+        margin-left: 120px;
+    }
+
+
+    
+    #widgets img {
+    
+        margin-top: 35%;
+        margin-left: 25%;
+        width: 15%;
+    }
+    
+    #header-date-div {
+        display: grid;
+        grid-template-rows: 1fr;
+        background:#2a2a2a;
+        grid-row: 2;
+        grid-column: 2;
+        border-radius: 20px;
+        margin-bottom: 220px;
+        width: 220px;
+        margin-bottom: 125px;
+
+    
+    }
+    
+    #header-date-div p {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 60%;
+        color: #cbb26a;
+        text-align: center;
+
+
+    
+    
+    }
+    
+    
+    
+    
+    
+    nav {
+        grid-column: 2;
+        grid-row: 1;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 100%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: #cbb26a;
+        row-gap: 225px;
+    
+    }
+
+    .nav-dropdown div {
+        display:none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #cbb26a;
+    }
+    
+    #hamburger {
+        display: none;
+    }
+    
+    
+    
+    ul li {
+        list-style-type: none;
+        display: inline;
+        float: left;
+        white-space: nowrap;
+        padding: 15px;
+    }
+    
+    ul {
+        padding: 0;
+        margin-left: 10%;
+        margin-bottom: 25%;
+    }
+
+    nav ul a, nav img {
+        text-decoration: none;
+        color:#cbb26a;
+        border-radius: 10px;
+    }
+    
+    nav ul a:hover, nav img:hover {
+        background-color: #cbb26a;
+        color: #2a2a2a;
+    }
+    
+    
+    
+
+
+
+
+
+
+
+
+    .main-div {
+        display: flex;
+        flex-direction:column;
+        padding: 50px;
+        display:inline;
+        filter: drop-shadow(5px 5px 5px #060606);
+    }
+    
+
+    .main-div div {
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        height: 150px;
+    }
+
+
+    
+    #hero-small {
+        display: none;
+    }
+
+    main div div {
+
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    #hero-medium {
+        width: 100%;
+    }
+
+    #weather-p {
+        display:none;
+    }
+
+    #event .main-content {
+        display: none;
+    }
+    #yad {
+        display: none;
+    }
+
+    #row-three-spotlight {
+        text-decoration: underline; 
+    }
+
+    #row-four-spotlight {
+        text-decoration: underline; 
+    }
+
+    #row-five-spotlight {
+        text-decoration: underline; 
+    }
+
+
+    #row-seven-event {
+        text-decoration: underline; 
+    }
+
+    #row-eight-weather {
+        text-decoration: underline; 
+    }
+
+
+    #fundraising {
+        display:none;
+    }
+
+    #legislative-spotlight {
+        display:none;
+    }
+
+    #chamber-conference {
+        display:none;
+    }
+
+
+
+
+
+    
+    
+    #event {
+        background:#cbb26a;
+        order: 2;
+    }
+
+    #event-p {
+        display: none;
+    }
+
+    #news-p {
+        display: none;
+    }
+    
+    #weather {
+        margin-top: 20%;
+        background:#cbb26a;
+        order: 3;
+    
+    }
+    
+    #join {
+        background:#cbb26a;
+        order: 4;
+    
+    }
+    
+    #middle-aisle-container {
+        display: grid; 
+        order: 1/4;
+        margin-top: 20px;
+        height: 250px;
+
+    
+    }
+    
+    
+    
+    #hero {
+        grid-row: 1; 
+        margin-left: auto;
+        width: 100%;
+        background:#cbb26a;
+        order: 1;
+        
+    }
+
+    #hero img {
+        width: 46%;
+        height: 55.6%;
+        position:absolute;
+    
+    }
+
+    #hero-large {
+        display:none;
+    }
+
+
+    
+    #news {
+        background:#cbb26a;
+        margin-left: auto;
+        width: 100%;
+        order: 5;
+    }
+    
+    #spotlight-1 {
+        margin-top: 90px;
+        grid-row: 7;
+        background:#cbb26a;
+        order: 6;
+    }
+    
+    #spotlight-2 {
+        grid-row: 4;
+        background:#cbb26a;
+        order: 7;
+    }
+    
+    #spotlight-3 {
+        grid-row: 5;
+        background:#cbb26a;
+        order: 8;
+    }
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    footer {
+        background: #111111;
+        padding:20px;
+    }
+    
+    #footer-box p {
+        text-align: center;
+        font-size: 100%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: #cbb26a;
+        padding: 5px;
+        margin-top: auto;
+        
+    }
+    
+    
+    
+    footer a {
+        color:#cbb26a;
+        border-radius: 10px;
+    }
+    
+    footer a:hover {
+        background-color: #cbb26a;
+        color: #2a2a2a;
+    }
+    
+    footer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 5%;
+        padding: 20px;
+    }
+    
+    #hamburger {
+        display: none;
+    }
+    
+    
+    
+    ul li {
+        list-style-type: none;
+        display: inline;
+        float: left;
+        white-space: nowrap;
+        padding: 15px;
+    }
+    
+    ul {
+        padding: 0;
+        margin-left: 10%;
+        margin-bottom: 25%;
+    }    
+    
+    
+    
+    
+    
+    
+    
+    
+    footer {
+        background-color:#111111;
+    }
+}
+
+
+
+
