@@ -26,7 +26,7 @@ html body {
 #img-img{
     grid-row: 1;
     grid-column: 1; 
-    margin-bottom: 24px;
+    margin-top: 5px;
     padding: 10px;
     display: block;
     width: 25%;
@@ -36,7 +36,7 @@ html body {
 
 h1 {
     margin-right: 0px;
-    margin-bottom: 32px;
+    margin-top: 15px;
     font-size: 100%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #cbb26a;
@@ -59,6 +59,7 @@ ul {
 #hamburger {
     font-size: 180%;
     margin-left: 15px;
+    margin-top: 1.5%;
 
 }
 
@@ -67,18 +68,19 @@ ul {
     grid-row: 1;
     grid-column: 2;
     
+    
 }
 
 #widgets img {
     width: 5%;
     margin-left: 90px;
 
+
 }
 
 #widgets a {
-    margin-bottom: 50px;
-    margin-left: 220px;
 
+    margin-left: 220px;
 
 }
 
@@ -349,25 +351,6 @@ main div div {
     background:#cbb26a;
     order: 8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
