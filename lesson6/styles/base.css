@@ -146,6 +146,7 @@ nav a:hover {
     grid-template-rows: 1fr;
     background:#2a2a2a;
     grid-row: 2;
+    grid-column: 1/4;
     border-radius: 20px;
     margin-bottom: 4px;
     width: 170px;
