@@ -281,7 +281,6 @@
     
     #middle-aisle-container {
         display: grid; 
-        order: 1/4;
         margin-top: 20px;
         height: 250px;
 
