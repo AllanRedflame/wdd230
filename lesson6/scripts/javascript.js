@@ -23,12 +23,11 @@ const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Sa
 const d = new Date();
 let day = weekday[d.getDay()];
 
-console.log(day)
+
 
 let eventText = document.getElementById("event-text");
 
 if (day === "Monday" || day === "Tuesday") {
-    alert(day)
     eventText.innerHTML = "Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
 }
 
