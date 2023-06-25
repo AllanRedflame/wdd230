@@ -4,7 +4,6 @@ window.onload = function importDate() {
     input.setAttribute("value", date);
 }
 
-alert("something");
 function validateForm(event) {
     event.preventDefault();
   
