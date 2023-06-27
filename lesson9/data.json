@@ -5,7 +5,7 @@
     "address": "221 Baker Street",
     "phone": "801-111-1111",
     "website": "https://www.pizzahut.com/",
-    "icon": "https://www.pizzahut.com/assets/w/images/Logo_PH_Retro@2x.png",
+    "icon": "https://raw.githubusercontent.com/AllanRedflame/wdd230/master/lesson9/pictures%20JSON/Ioutpizzedthehut.jpg",
     "membership": "Very Cool Tier"
   }, 
   
@@ -14,7 +14,7 @@
     "address": "4 Privet Drive",
     "phone": "801-222-2222",
     "website": "https://www.papajohns.com/",
-    "icon": "https://www.papajohns.com/static-assets/ltc/images/logo-small-2021.svg",
+    "icon": "https://raw.githubusercontent.com/AllanRedflame/wdd230/master/lesson9/pictures%20JSON/johns.jpg",
     "membership": "Very Cool Tier"
   },
   {
@@ -30,7 +30,7 @@
     "address": "12 Grimauld Place",
     "phone": "801-444-4444",
     "website": "https://www.dominos.com/en/",
-    "icon": "https://ih1.redbubble.net/image.4941737156.8961/st,small,507x507-pad,600x600,f8f8f8.jpg",
+    "icon": "https://raw.githubusercontent.com/AllanRedflame/wdd230/master/lesson9/pictures%20JSON/dominos.jpg",
     "membership": "Very Cool Tier"
   },
   {
@@ -38,7 +38,7 @@
     "address": "93 Diagon Ally",
     "phone": "801-555-5555",
     "website": "https://www.papamurphys.com/",
-    "icon": "https://readandfeed.org/wp-content/uploads/2019/08/papamurphys_3.gif",
+    "icon": "https://raw.githubusercontent.com/AllanRedflame/wdd230/master/lesson9/pictures%20JSON/papamurphys.jpg",
     "membership": "Very Cool Tier"
   },
   {
@@ -46,7 +46,7 @@
     "address": "Venus 1234, Sky Pad Apartments",
     "phone": "801-666-6666",
     "website": "https://www.marcos.com/",
-    "icon": "https://www.vhv.rs/dpng/d/423-4237036_marcos-pizza-png-free-pic-marcos-pizza-transparent.png",
+    "icon": "https://raw.githubusercontent.com/AllanRedflame/wdd230/master/lesson9/pictures%20JSON/marcos.jpg",
     "membership": "Very Cool Tier"
   },
   {
@@ -54,7 +54,7 @@
     "address": "17 Cherry Tree Lane",
     "phone": "801-777-7777",
     "website": "https://sbarro.com/",
-    "icon": "https://assets.simon.com/tenantlogos/8.png",
+    "icon": "https://raw.githubusercontent.com/AllanRedflame/wdd230/master/lesson9/pictures%20JSON/sbarro.jpg",
     "membership": "Very Cool Tier"
   },
   {
@@ -62,7 +62,7 @@
     "address": "1313 Webfoot Walk",
     "phone": "801-888-8888",
     "website": "https://www.roundtablepizza.com/",
-    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVmp5gksnj1m5NbzAcd1_1gVlo1L_HNfzyuQ&usqp=CAU",
+    "icon": "https://raw.githubusercontent.com/AllanRedflame/wdd230/master/lesson9/pictures%20JSON/roundtable.jpg",
     "membership": "Very Cool Tier"
   },
   {
@@ -70,7 +70,7 @@
     "address": "P Sherman 42 Wallaby Way, Sydney",
     "phone": "801-999-9999",
     "website": "https://www.blazepizza.com/",
-    "icon": "https://www.blazepizza.com/assets/icons/blaze-logo.svg",
+    "icon": "https://raw.githubusercontent.com/AllanRedflame/wdd230/master/lesson9/pictures%20JSON/blazepizza.jpg",
     "membership": "Very Cool Tier"
 
   }
