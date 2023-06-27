@@ -1,7 +1,7 @@
 {
   "companies": [
     {
-    "name": "Pizzahut",
+    "company": "Pizzahut",
     "address": "221 Baker Street",
     "phone": "801-111-1111",
     "website": "https://www.pizzahut.com/",
@@ -10,7 +10,7 @@
   }, 
   
   {
-    "name": "Papa John's",
+    "company": "Papa John's",
     "address": "4 Privet Drive",
     "phone": "801-222-2222",
     "website": "https://www.papajohns.com/",
@@ -18,7 +18,7 @@
     "membership": "Very Cool Tier"
   },
   {
-    "name": "Little Caesars",
+    "company": "Little Caesars",
     "address": "124 Conch Street",
     "phone": "801-333-3333",
     "website": "https://littlecaesars.com/en-us/",
@@ -26,7 +26,7 @@
     "membership": "Very Cool Tier"
   },
   {
-    "name": "Dominos",
+    "company": "Dominos",
     "address": "12 Grimauld Place",
     "phone": "801-444-4444",
     "website": "https://www.dominos.com/en/",
@@ -34,7 +34,23 @@
     "membership": "Very Cool Tier"
   },
   {
-    "name":"sbarro",
+    "company": "Papa Murphy's",
+    "address": "93 Diagon Ally",
+    "phone": "801-555-5555",
+    "website": "https://www.papamurphys.com/",
+    "icon": "https://readandfeed.org/wp-content/uploads/2019/08/papamurphys_3.gif",
+    "membership": "Very Cool Tier"
+  },
+  {
+    "company": "Marco's",
+    "address": "Venus 1234, Sky Pad Apartments",
+    "phone": "801-666-6666",
+    "website": "https://www.marcos.com/",
+    "icon": "https://www.vhv.rs/dpng/d/423-4237036_marcos-pizza-png-free-pic-marcos-pizza-transparent.png",
+    "membership": "Very Cool Tier"
+  },
+  {
+    "company":"sbarro",
     "address": "17 Cherry Tree Lane",
     "phone": "801-777-7777",
     "website": "https://sbarro.com/",
@@ -42,12 +58,21 @@
     "membership": "Very Cool Tier"
   },
   {
-    "name":"Blaze Pizza",
+    "company": "Round table Pizza",
+    "address": "1313 Webfoot Walk",
+    "phone": "801-888-8888",
+    "website": "https://www.roundtablepizza.com/",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVmp5gksnj1m5NbzAcd1_1gVlo1L_HNfzyuQ&usqp=CAU",
+    "membership": "Very Cool Tier"
+  },
+  {
+    "company":"Blaze Pizza",
     "address": "P Sherman 42 Wallaby Way, Sydney",
     "phone": "801-999-9999",
     "website": "https://www.blazepizza.com/",
     "icon": "https://www.blazepizza.com/assets/icons/blaze-logo.svg",
     "membership": "Very Cool Tier"
+
   }
 ]
 }
