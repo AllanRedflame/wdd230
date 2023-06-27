@@ -28,7 +28,6 @@ console.log(day)
 let eventText = document.getElementById("event-text");
 
 if (day === "Monday" || day === "Tuesday") {
-    alert(day)
     eventText.innerHTML = "Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
 }
 
