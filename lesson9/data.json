@@ -15,7 +15,7 @@
     "phone": "801-222-2222",
     "website": "https://www.papajohns.com/",
     "icon": "https://raw.githubusercontent.com/AllanRedflame/wdd230/master/lesson9/pictures%20JSON/johns.jpg",
-    "membership": "Very Cool Tier"
+    "membership": "he Mega Awesome Tier For Attractice People"
   },
   {
     "company": "Little Caesars",
@@ -23,7 +23,7 @@
     "phone": "801-333-3333",
     "website": "https://littlecaesars.com/en-us/",
     "icon": "https://pbs.twimg.com/profile_images/1628044839378907138/I4c1Sy6C_400x400.jpg",
-    "membership": "Very Cool Tier"
+    "membership": "The Patently Medicore Tier"
   },
   {
     "company": "Dominos",
@@ -31,7 +31,7 @@
     "phone": "801-444-4444",
     "website": "https://www.dominos.com/en/",
     "icon": "https://raw.githubusercontent.com/AllanRedflame/wdd230/master/lesson9/pictures%20JSON/dominos.jpg",
-    "membership": "Very Cool Tier"
+    "membership": "The Slightly Less Lame Tier"
   },
   {
     "company": "Papa Murphy's",
@@ -39,7 +39,7 @@
     "phone": "801-555-5555",
     "website": "https://www.papamurphys.com/",
     "icon": "https://raw.githubusercontent.com/AllanRedflame/wdd230/master/lesson9/pictures%20JSON/papamurphys.jpg",
-    "membership": "Very Cool Tier"
+    "membership": "The Mega Awesome Tier For Attractive People"
   },
   {
     "company": "Marco's",
@@ -47,7 +47,7 @@
     "phone": "801-666-6666",
     "website": "https://www.marcos.com/",
     "icon": "https://raw.githubusercontent.com/AllanRedflame/wdd230/master/lesson9/pictures%20JSON/marcos.jpg",
-    "membership": "Very Cool Tier"
+    "membership": "The Super Lame Tier"
   },
   {
     "company":"sbarro",
@@ -63,7 +63,7 @@
     "phone": "801-888-8888",
     "website": "https://www.roundtablepizza.com/",
     "icon": "https://raw.githubusercontent.com/AllanRedflame/wdd230/master/lesson9/pictures%20JSON/roundtable.jpg",
-    "membership": "Very Cool Tier"
+    "membership": "The Slightly Less Lame Tier"
   },
   {
     "company":"Blaze Pizza",
