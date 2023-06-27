@@ -1,7 +1,7 @@
 {
-  "companies": [
+  "company": [
     {
-    "company": "Pizzahut",
+    "name": "Pizzahut",
     "address": "221 Baker Street",
     "phone": "801-111-1111",
     "website": "https://www.pizzahut.com/",
@@ -10,7 +10,7 @@
   }, 
   
   {
-    "company": "Papa John's",
+    "name": "Papa John's",
     "address": "4 Privet Drive",
     "phone": "801-222-2222",
     "website": "https://www.papajohns.com/",
@@ -18,7 +18,7 @@
     "membership": "Very Cool Tier"
   },
   {
-    "company": "Little Caesars",
+    "name": "Little Caesars",
     "address": "124 Conch Street",
     "phone": "801-333-3333",
     "website": "https://littlecaesars.com/en-us/",
@@ -26,7 +26,7 @@
     "membership": "Very Cool Tier"
   },
   {
-    "company": "Dominos",
+    "name": "Dominos",
     "address": "12 Grimauld Place",
     "phone": "801-444-4444",
     "website": "https://www.dominos.com/en/",
@@ -34,7 +34,7 @@
     "membership": "Very Cool Tier"
   },
   {
-    "company": "Papa Murphy's",
+    "name": "Papa Murphy's",
     "address": "93 Diagon Ally",
     "phone": "801-555-5555",
     "website": "https://www.papamurphys.com/",
@@ -42,7 +42,7 @@
     "membership": "Very Cool Tier"
   },
   {
-    "company": "Marco's",
+    "name": "Marco's",
     "address": "Venus 1234, Sky Pad Apartments",
     "phone": "801-666-6666",
     "website": "https://www.marcos.com/",
@@ -50,7 +50,7 @@
     "membership": "Very Cool Tier"
   },
   {
-    "company":"sbarro",
+    "name":"sbarro",
     "address": "17 Cherry Tree Lane",
     "phone": "801-777-7777",
     "website": "https://sbarro.com/",
@@ -58,7 +58,7 @@
     "membership": "Very Cool Tier"
   },
   {
-    "company": "Round table Pizza",
+    "name": "Round table Pizza",
     "address": "1313 Webfoot Walk",
     "phone": "801-888-8888",
     "website": "https://www.roundtablepizza.com/",
@@ -66,7 +66,7 @@
     "membership": "Very Cool Tier"
   },
   {
-    "company":"Blaze Pizza",
+    "name":"Blaze Pizza",
     "address": "P Sherman 42 Wallaby Way, Sydney",
     "phone": "801-999-9999",
     "website": "https://www.blazepizza.com/",
