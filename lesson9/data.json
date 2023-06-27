@@ -34,6 +34,14 @@
     "membership": "Very Cool Tier"
   },
   {
+    "name":"sbarro",
+    "address": "17 Cherry Tree Lane",
+    "phone": "801-777-7777",
+    "website": "https://sbarro.com/",
+    "icon": "https://assets.simon.com/tenantlogos/8.png",
+    "membership": "Very Cool Tier"
+  },
+  {
     "name":"Blaze Pizza",
     "address": "P Sherman 42 Wallaby Way, Sydney",
     "phone": "801-999-9999",
