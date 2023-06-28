@@ -124,6 +124,15 @@ nav {
     align-items: center;
 }
 
+#members-h2 {
+    background:#cbb26a;
+    padding: 30px;
+    text-align: center;
+    font-size: 250%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 #event {
     background:#cbb26a;
