@@ -3,7 +3,6 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
 const url = 'http://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=f39973082ab5286d5c823eb243fa4a43';
-//const url = `http://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=8425eaa67c77064b04663fe8bd49542f`;
 
   async function apiFetch() {
     try {
@@ -31,11 +30,3 @@ function  displayResults(weatherData) {
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
   }
-
-  
-
-  
-
-
-  
-  
