@@ -102,7 +102,15 @@
     
     }
     
-    
+    #members-h2 {
+        background:#cbb26a;
+        padding: 30px;
+        text-align: center;
+        font-size: 200%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin-left: 5%;
+        margin-right: 5%;
+    } 
     
     
     
