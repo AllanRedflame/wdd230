@@ -146,7 +146,15 @@ ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-
+#members-h2 {
+    background:#cbb26a;
+    padding: 30px;
+    text-align: center;
+    font-size: 125%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .cards > section > h2 {
     text-decoration: none;
     color:#aaaaaa;
