@@ -96,9 +96,6 @@
         font-size: 60%;
         color: #cbb26a;
         text-align: center;
-
-
-    
     
     }
     
@@ -242,6 +239,54 @@
         height: 150px;
     }
 
+    #contact-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #contact-left-box {
+        grid-column: 1;
+        text-align: center;
+        background:#cbb26a;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        margin-top: 2.5%;
+        font-family: "Fira Sans", sans-serif;
+    }
+    
+    #contact-right-box {
+        grid-column: 2;
+        text-align: center;
+        background:#cbb26a;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        margin-top: 2.5%;
+        font-family: "Fira Sans", sans-serif;
+    }
+    
+    #contact-right-box > p {
+        padding: 25px;
+    }
+    
+    .contact-widgets{
+        width: 7%;
+        margin-bottom: 5%;
+    }
+    
+    #contact-form {
+        font-size: 250%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 13%;
+    }
+    
+    #contact-information {
+        font-size: 250%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+
 
     .cards {
         display: grid;
@@ -304,10 +349,6 @@
         margin-left: 5%;
         margin-right: 5%;
     }
-
-
-
-
 
     main div div {
 
@@ -465,16 +506,6 @@
     }
 
 
-
-
-
-
-
-
-
-
-
-
     .hero-large {
         display: none;
     }
@@ -517,8 +548,6 @@
 
     
     }
-    
-    
     
     #hero {
         grid-row: 1; 
@@ -566,31 +595,6 @@
         order: 8;
     }
 
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
     
     footer {
         background: #111111;
@@ -648,16 +652,7 @@
     }    
     
     
-    
-    
-    
-    
-    
-    
     footer {
         background-color:#111111;
     }
 }
-
-
-
