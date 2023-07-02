@@ -15,7 +15,7 @@ html body {
     margin-top: 5px;
     padding: 10px;
     display: block;
-    width: 5%;
+    width: 10%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -290,7 +290,7 @@ nav a:hover {
 #header-date-small {
     color:#cbb26a;
     text-align: center;
-    font-size: 150%;
+    font-size: 125%;
     padding: 1%;
 }
 
