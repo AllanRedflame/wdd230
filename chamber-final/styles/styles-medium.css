@@ -1,0 +1,589 @@
+@media only screen and (max-width: 1580px) and (min-width: 721px) {
+    html body {
+        background: #2a2a2a;
+    }
+    
+    #header-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 4fr 1fr;
+        background: #111111;
+        margin-bottom:25px;
+        height: 250px;
+    
+    }
+
+    #Event-Announcement-Medium {
+        padding: 20px;
+        text-decoration: underline;  
+    }
+    
+    #row-six-join:hover {
+        color: black;
+        background: #cbb26a;
+    }
+
+    #row-six-join {
+        color: #cbb26a;
+        background: #2a2a2a;
+        border-radius: 5px;
+    }
+    
+    #header-container div {
+        margin: auto;
+    }
+    
+    
+    #logo-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #img-img{
+        grid-row: 1;
+        grid-column: 1;
+        width: 25%;
+        margin-left: 25px;
+        margin-top: 32px;
+    }
+    
+    h1 {
+        grid-column: 1;
+        grid-row: 1;
+        margin-top: 30px;
+        font-size: 200%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #cbb26a;
+        line-height: 35px;
+        margin-left: 120px;
+    }
+
+
+    #test-medium {
+        width: 100%;
+        margin-right: 5%;
+        margin-right: 5%;
+    }
+
+    #weather-content, #weather {
+        display: none;
+    }
+
+
+    #widgets img {
+
+        margin-left: 25%;
+        width: 15%;
+    }
+    
+    #header-date-div, #header-date-div p {
+        display: none;
+    }
+
+    #small-date-div {
+        background-color: #111111;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    #small-date-div {
+        background-color: #111111;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    #header-date-small {
+        color:#cbb26a;
+        text-align: center;
+        font-size: 200%;
+        padding: 1%;
+    }
+    
+    #members-h2 {
+        background:#cbb26a;
+        padding: 30px;
+        text-align: center;
+        font-size: 200%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    nav {
+        grid-column: 2;
+        grid-row: 1;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 100%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: #cbb26a;
+        row-gap: 225px;
+    
+    }
+
+    .nav-dropdown div {
+        display:none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #cbb26a;
+    }
+    
+    #hamburger-twitter {
+        background:#2a2a2a;
+    }
+
+
+    #hamburger {
+        display: none;
+    }
+    
+    #weather-icon-spotlight {
+        width: 6%;
+        margin-left: 47%;
+        margin-right: 50%;
+    }
+
+
+    #spotlight-3 {
+        margin-bottom: 20px;
+        height: 100%;
+    }
+
+    #spotlight-3 > span {
+        padding: 70px;
+    }
+
+    #row-eight-weather {
+        font-size: 125%;
+    }
+    
+    ul li {
+        list-style-type: none;
+        display: inline;
+        float: left;
+        white-space: nowrap;
+        padding: 15px;
+    }
+    
+    ul {
+        padding: 0;
+        margin-left: 10%;
+        margin-bottom: 25%;
+    }
+
+    nav ul a, nav img {
+        text-decoration: none;
+        color:#cbb26a;
+        border-radius: 10px;
+    }
+    
+    nav ul a:hover, nav img:hover {
+        background-color: #cbb26a;
+        color: #2a2a2a;
+    }
+    
+    .location img {
+        width: 100%;
+    }
+
+    .location {
+        background:#cbb26a;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    
+    .location img:hover {
+        opacity: 0.7;
+        transition: opacity 0.5s;
+    }
+    
+    .location img {
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+
+    .location h2 {
+        font-family: "Fira Sans", sans-serif;
+        font-size: 175%;
+        text-align: center;
+        text-decoration: underline;
+        text-underline-position: under;
+    }
+    
+    .location p {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding: 3%;   
+    }
+
+    .main-div {
+        display: flex;
+        flex-direction:column;
+        padding: 50px;
+        display:inline;
+        filter: drop-shadow(5px 5px 5px #060606);
+    }
+    
+    .main-div div {
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        height: 150px;
+    }
+
+    #contact-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #contact-left-box {
+        grid-column: 1;
+        text-align: center;
+        background:#cbb26a;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        margin-top: 2.5%;
+        font-family: "Fira Sans", sans-serif;
+    }
+    
+    #contact-right-box {
+        grid-column: 2;
+        text-align: center;
+        background:#cbb26a;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        margin-top: 2.5%;
+        font-family: "Fira Sans", sans-serif;
+    }
+    
+    #contact-right-box > p {
+        padding: 25px;
+    }
+    
+    .contact-widgets{
+        width: 7%;
+        margin-bottom: 5%;
+    }
+    
+    #contact-form {
+        font-size: 250%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 13%;
+    }
+    
+    #contact-information {
+        font-size: 250%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .cards > section {
+        background:#cbb26a;
+        margin-left: 15%;
+        margin-right: 15%;
+        border: 5px solid black;
+        margin-bottom: 50px;
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .cards > section > img {
+        margin: auto;
+        border: 3px solid black;
+        width: 50%;
+        padding: 10px;
+    }
+    
+    .cards > section > p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    
+    .cards > section > h2 {
+        text-decoration: none;
+        color:#aaaaaa;
+        background:#111111;
+        border-radius: 3px;
+        font-size: 200%;
+    }
+    
+    .cards > section > a {
+        text-decoration: none;
+        color:#aaaaaa;
+        background:#111111;
+        border-radius: 3px;
+        font-size: 200%;
+    }
+    
+    .cards > section > a:hover {
+        text-decoration: none;
+        color:black;
+        background:#cbb26a;
+        border-radius: 3px;
+        font-size: 200%;
+    }
+    
+    
+    #directory-div h2{
+        background:#cbb26a;
+        padding: 30px;
+        text-align: center;
+        font-size: 250%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    main div div {
+
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    #hero-medium {
+        width: 100%;
+    }
+
+    #weather-p, #yad, #event .main-content {
+        display:none;
+    }
+
+    #row-three-spotlight, #row-four-spotlight,
+    #row-five-spotlight, #row-seven-event, 
+    #row-eight-weather {
+        text-decoration: underline; 
+    }
+
+    #fundraising, #legislative-spotlight,
+    #chamber-conference{
+        display:none;
+    }
+
+    #thank-you-div {
+        background-color:#cbb26a;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    #thank-you-div p {
+        padding: 25px;
+        font-size: 200%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    #join-main {
+        background:#cbb26a;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #inputs {
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+        grid-column: 1;
+    }
+    
+    #business-position:invalid {
+        border: 4px dashed red;
+    }
+    
+    
+    ol li{
+        list-style-type: none;
+        font-size: 125%;
+    }
+    
+    ol {
+        padding: 20px;
+    }
+    
+    .join-header {
+        margin-top: 50px;
+        font-size: 300%;
+        text-decoration: underline;
+    }
+    
+    #join-main h2 {
+        font-size: 150%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .input-box {
+        padding: 20px;
+    }
+    
+    .input-box input{
+        width: 100%;
+        height: 80px;
+        font-size: 150%;
+    }
+    
+    #description {
+        width: 100%;
+        height: 160px;
+        font-size: 160%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #membership-level {
+        width: 100%;
+        height: 100px;
+        font-size: 200%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .input-box label{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 200%;
+    }
+    
+    #submit-button {
+        width: 100%;
+        height: 100px;
+        font-size: 200%;
+        margin-bottom: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #submit-button:hover{
+        width: 100%;
+        height: 100px;
+        font-size: 180%;
+        background-color: #aaaaaa;
+    }
+
+    .hero-large, #event-p, 
+    #news-p{
+        display: none;
+    }
+    
+    #event, #join {
+        background:#cbb26a;
+    }
+    
+    #weather {
+        margin-top: 20%;
+        background:#cbb26a;
+    }
+    
+    #middle-aisle-container {
+        display: grid; 
+        margin-top: 20px;
+        height: 250px;
+    }
+    
+    #hero {
+        grid-row: 1; 
+        margin-left: auto;
+        width: 100%;
+        background:#cbb26a;    
+    }
+
+    #hero img {
+        width: 46%;
+        height: 55.6%;
+        position:absolute;
+    
+    }
+
+    #news {
+        background:#cbb26a;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .spotlight-1-img, .spotlight-2-img, .spotlight-3-img {
+        height: 55%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .large-view-spotlight  {
+        display: none;
+    }
+    
+    #spotlight-1 {
+        margin-top: 90px;
+        grid-row: 7;
+        background:#cbb26a;
+    }
+    
+    #spotlight-2 {
+        grid-row: 4;
+        background:#cbb26a;
+    }
+    
+    #spotlight-3 {
+        grid-row: 5;
+        background:#cbb26a;
+    }
+    
+    footer {
+        background: #111111;
+        padding:20px;
+    }
+    
+    #footer-box p {
+        text-align: center;
+        font-size: 100%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: #cbb26a;
+        padding: 5px;
+        margin-top: auto;
+        
+    }
+    
+    footer a {
+        color:#cbb26a;
+        border-radius: 10px;
+    }
+    
+    footer a:hover {
+        background-color: #cbb26a;
+        color: #2a2a2a;
+    }
+    
+    footer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 5%;
+        padding: 20px;
+    }
+    
+    ul li {
+        list-style-type: none;
+        display: inline;
+        float: left;
+        white-space: nowrap;
+        padding: 15px;
+    }
+    
+    ul {
+        padding: 0;
+        margin-left: 10%;
+        margin-bottom: 25%;
+    }    
+    
+    footer {
+        background-color:#111111;
+    }
+}
+
+
+
