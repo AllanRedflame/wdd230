@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salt Lake Utah Chamber</title>
+    <meta name="description" content="WDD230 BYU-Idaho Online | David Poulsen 
+    | Chamber Final">
+    <link rel="stylesheet" href="styles/styles-large.css">
+    <link rel="stylesheet" href="styles/styles-medium.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+
+    <header>
+        <div id="header-container">
+    
+            <div id="logo-div">
+                <img id="img-img" src="images/empty-logo.webp" alt="Photo">
+    
+                <h1>
+                    Salt Lake <br> Chamber
+                </h1>
+            </div>
+            <a href="#"  id="hamburger" onClick="toggleMenu()">&#9776; </a>
+            <nav class="nav-div">
+                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+    
+                
+    
+            </nav>
+    
+            <div id="widgets">
+                <a href="https://twitter.com/?lang=en"> <img  src="images/twitter.png" alt="twitter" id="widget-twitter"> </a>
+                <a href="https://www.facebook.com"> <img src="images/facebook.png" alt="facebook" id="widget-facebook"> </a>
+            </div>
+    
+            <div id="header-date-div">
+                <p id="header-date">a</p>
+            </div>
+    
+        </div>
+
+        <div class="nav-dropdown">
+
+            <div>
+                <a href="index.html">Home</a>
+            </div>  
+
+            <div>
+                <a href="discover.html">Discover</a>
+            </div>
+    
+            <div>
+                <a href="directory.html">Directory</a>
+            </div>
+            
+            <div>
+                <a href="join.html">Join</a>
+            </div>
+    
+            <div>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div id="hamburger-twitter">
+                <a href="https://twitter.com/?lang=en"> <img  src="images/twitter.png" alt="twitter"> </a>
+            </div>
+            <div id="hamburger-facebook">
+                <a href="https://www.facebook.com"> <img src="images/facebook.png" alt="facebook"> </a>
+            </div>
+
+  
+        </div>
+
+        <div id="small-date-div" class="smaller-view-content">
+            <p id="header-date-small" class="smaller-view-content">a</p>
+        </div>
+    </header>
+
+
+
+    <main>
+
+        <div id="test-hero-small">
+            <picture>
+                <source media="(max-width: 800px)" id="test-small" srcset="images/hero-small.webp">
+                <img src="images/hero-medium.webp" id="test-medium" alt="hero medium"> 
+            </picture>
+        </div>
+        <div class="main-div">
+
+
+
+                <div id="event">
+                    
+                    
+                    <p id="event-p">Event Announcement</p>
+                    
+
+                      
+                    <p id="Event-Announcement-Medium" class="smaller-view-content">Event Announcement</p>
+                    <p id="event-text"></p>
+                    
+                </div>
+                
+                <div id="weather">
+                    <p id="weather-p">Weather</p>
+                    <img src="#" alt="weather" id="weather-icon">
+                    <div id="weather-large-content">       
+                        <span id="weather-description">Desc</span>             
+                        <span id="temperature">temp</span>
+                        <span id="mph">mph</span>
+                        <span id="wind-chill">A</span></div>
+                    </div>
+                
+                <div id="join">
+                    <div id="yad">
+                        <p><a class="content-link" href="#">Join Us</a></p>
+                    </div>
+                    <p class="row-three-spotlight smaller-view-content">News release: 
+                        Utah Second Lowest Poverty Rate In Country</p>
+                    
+                    <p class="smaller-view-content">As of 2023, Utah has the second lowest poverty rate in the country at 8.28%, trailing only New Hampshire at 6.94%.</p>
+
+                    <p id="join-content-large" class="main-content large-view-spotlight">We are looking for members! Click to learn how to join 
+                        the SL Chamber.
+                    </p>
+
+                    
+                </div>
+  
+
+                <div id="middle-aisle-container"> 
+                    <div id="hero">
+                        
+                        <picture>
+                            <img src="images/hero.png" class="hero-large" alt="hero-large">
+                        </picture>
+                        
+                        <p class="row-four-spotlight large-view-spotlight"> Fundraiser </p>
+                        <p><a id="row-six-join" class="smaller-view-content" href="#">Join Us</a></p>
+                        <p class="main-content smaller-view-content" >We are looking for members! Click to learn how 
+                            to join the SL Chamber.
+                        </p>
+                    </div>
+
+                    <div id="news">
+                        <p id="news-p">News release: Utah Second Lowest Poverty Rate In Country</p>
+                        <p class="row-five-spotlight large-view-spotlight"> Legislative Initiative </p>
+
+                        
+                        <p class="main-content large-view-spotlight">As of 2023, Utah has the second lowest poverty rate in the
+                            country at 8.28%, trailing only New Hampshire at 6.94%. 
+                        </p>
+                        <p class="spotlight-header-1 smaller-view-content"></p>
+                        <img src="#" alt="picture-1 class" class="spotlight-1-img smaller-view-content"> 
+                        
+                    </div>
+                </div>
+
+                <div id="spotlight-1">
+                    <p class="spotlight-header-1 large-view-spotlight">Chamber Conference</p>
+                    <img src="#" alt="business 1" class="spotlight-1-img large-view-spotlight" >
+
+                    <p class="spotlight-header-2 smaller-view-content">Chamber Conference</p>
+                    <img src="#" alt="business 2" class="spotlight-2-img smaller-view-content">
+                    
+                </div>
+
+                <div id="spotlight-2">
+                    <p class="spotlight-header-2 large-view-spotlight">Fundraising</p>
+                    <p id="row-seven-event" class="smaller-view-content large-view-spotlight">News</p>
+
+                    <img src="#" alt="business 2" class="spotlight-2-img large-view-spotlight">
+                    
+                    <p class="spotlight-header-3 smaller-view-content">Chamber Conference</p>
+                    <img src="#" alt="business 3" class="spotlight-3-img smaller-view-content">
+
+                </div>
+
+                <div id="spotlight-3">
+                    <p class="spotlight-header-3 large-view-spotlight">Legislative Initiatives</p>
+                    <p id="row-eight-weather" class="smaller-view-content"> Weather </p>
+
+                    
+                    <img src="#" alt="business 3 img" class="spotlight-3-img large-view-spotlight">
+
+                        <div id="weather-spotlight">
+                            <img src="#" alt="weather" id="weather-icon-spotlight">
+                            <span id="weather-description-spotlight">Desc</span>
+                            <span id="temperature-spotlight">temp</span>
+        
+        
+                            <span id="mph-spotlight">mph</span>
+        
+                            <span id="wind-chill-spotlight">A</span>
+
+
+                        </div>
+
+                    
+                </div>
+
+
+        </div>
+    </main>
+
+
+
+<div id="button">
+
+</div>
+
+
+
+    <footer>
+        <div id="footer-box">
+            <p>801-000-0000 | ChamberEmail@email.com |<a href="https://www.nationsonline.org/oneworld/map/USA/utah_map.htm"> Salt Lake, Utah</a></p>
+            <p id="name-location"> </p>
+            <p id="last-updated">a </p>
+            <p>Weather information from Open Weather Map</p>
+        </div>
+
+        <img src="images/empty-logo.webp" alt="Logo">
+        
+    </footer>
+    <script src="scripts/spotlight"></script>
+    //<script src="scripts/windchill.js"></script>
+    <script src="scripts/javascript.js"></script>
+    
+
+</body>
+</html>

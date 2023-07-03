@@ -1,0 +1,671 @@
+@media screen and (max-width: 720px) {
+
+html body {
+    background: #2a2a2a;
+    overflow-x: hidden;
+}
+
+#header-container {
+    background: #111111;
+}
+
+
+
+#img-img{
+    grid-column: 1; 
+    margin-top: 5px;
+    padding: 10px;
+    display: block;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#logo-div {
+    grid-column: 2;
+}
+
+h1 {
+    margin-top: 15px;
+    font-size: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #cbb26a;
+    text-align: center;
+
+}
+
+ul {
+    grid-row: 1;
+    grid-column: 3;
+    margin-right: 150px;
+    margin-top: auto;
+    padding:15px;
+    position: absolute;
+   
+}
+
+#hamburger{
+    display: block;
+    font-size: 180%;
+    color:#cbb26a;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+#hamburger:hover{
+    display: block;
+    font-size: 180%;
+    color:#2a2a2a;
+    background-color: #cbb26a;
+    border-radius: 3px;
+
+}
+
+.hamburger-widget {
+    background-color:#2a2a2a;
+}
+
+#hamburger-twitter > a > img{
+    width: 7%;
+    background-color:#2a2a2a;
+}
+
+#hamburger-facebook > a > img{
+    background-color:#2a2a2a;
+    width: 7%;
+}
+
+#hamburger-twitter{
+    background-color:#2a2a2a;
+}
+
+#hamburger-facebook{
+    background-color:#2a2a2a;
+}
+
+#widgets {
+    grid-row: 1;
+    grid-column: 2;
+    
+    
+}
+
+#widgets img {
+    width: 5%;
+    margin-left: 90px;
+    display: none;
+
+}
+
+#widgets a {
+
+    margin-left: 220px;
+
+}
+
+
+#Event-Announcement-Medium {
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+
+#hero-medium {
+    display:none;
+}
+#hero-large {
+    display: none;
+}
+
+
+#row-three-spotlight, #row-four-spotlight,
+#row-five-spotlight, #row-seven-event,
+#row-seven-event, #row-eight-weather {
+    text-decoration: underline; 
+}
+
+#contact-left-box {
+    text-align: center;
+    background:#cbb26a;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Fira Sans", sans-serif;
+}
+
+#contact-right-box {
+    text-align: center;
+    background:#cbb26a;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 2.5%;
+    font-family: "Fira Sans", sans-serif;
+}
+
+#contact-right-box > p {
+    padding: 25px;
+}
+
+.contact-widgets{
+    width: 7%;
+    margin-bottom: 5%;
+}
+
+#contact-form {
+    font-size: 250%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5%;
+}
+
+#contact-information {
+    font-size: 225%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.cards > section {
+    background:#cbb26a;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 4px solid black;
+    margin-bottom: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.cards > section > img {
+    margin: auto;
+    border: 2px solid black;
+    width: 65%;
+    padding: 10px;
+}
+
+#members-h2 {
+    background:#cbb26a;
+    padding: 30px;
+    text-align: center;
+    font-size: 125%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cards > section > p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.cards > section > h2 {
+    text-decoration: none;
+    color:#aaaaaa;
+    background:#111111;
+    border-radius: 3px;
+    font-size: 100%;
+}
+
+.cards > section > a {
+    text-decoration: none;
+    color:#aaaaaa;
+    background:#111111;
+    border-radius: 3px;
+    font-size: 100%;
+}
+
+.cards > section > a:hover {
+    text-decoration: none;
+    color:black;
+    background:#cbb26a;
+    border-radius: 3px;
+    font-size: 200%;
+}
+
+
+#directory-div h2 {
+    background:#cbb26a;
+    padding: 30px;
+    text-align: center;
+    font-size: 250%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+nav ul {
+    width: 100%;
+}
+
+nav a {
+
+    color:#cbb26a;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #cbb26a;
+    color: #2a2a2a;
+}
+
+#header-date-div {
+    display:none
+}
+
+#header-date-div p {
+    display: none;
+}
+
+#small-date-div {
+    background-color: #111111;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#header-date-small {
+    color:#cbb26a;
+    text-align: center;
+    font-size: 125%;
+    padding: 1%;
+}
+
+
+.location img {
+    width: 100%;
+}
+
+.location {
+    background:#cbb26a;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.location img {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.location h2 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.location p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 3%;   
+}
+
+
+
+footer a {
+
+    color:#cbb26a;
+    border-radius: 5px;
+}
+
+footer a:hover {
+    background-color: #cbb26a;
+    color: #2a2a2a;
+}
+
+
+
+
+
+
+
+
+
+
+.main-div {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 50px;
+    grid-gap: 20px;
+    display:inline;
+    filter: drop-shadow(5px 5px 5px #060606);
+
+    
+}
+
+.main-div div {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+
+}
+
+
+main div div {
+    margin-bottom: 20px;
+}
+
+
+
+
+main div div {
+
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#hero-small {
+    width: 100%;
+}
+
+#weather-p {
+    display:none;
+}
+
+#event .main-content {
+    display: none;
+}
+
+#yad {
+    display: none;
+}
+
+
+#thank-you-div {
+    background-color:#cbb26a;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#thank-you-div p {
+    padding: 15px;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#join-main {
+    background:#cbb26a;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#inputs {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    grid-column: 1;
+}
+
+#business-position:invalid {
+    border: 4px dashed red;
+}
+
+#tier-information {
+    margin-right: 20px;
+}
+
+ol li{
+    list-style-type: none;
+    font-size: 25%;
+}
+
+ol {
+    padding: 5px;
+}
+
+.join-header {
+    margin-top: 25px;
+    font-size: 100%;
+    text-decoration: underline;
+}
+
+#join-main h2 {
+    font-size: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.input-box {
+    padding: 10px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 40px;
+    font-size: 75%;
+}
+
+#description {
+    width: 100%;
+    height: 100px;
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#membership-level {
+    width: 100%;
+    height: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.input-box label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+#submit-button {
+    width: 80%;
+    height: 75px;
+    font-size: 100%;
+    margin-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#submit-button:hover{
+    width: 80%;
+    height: 75px;
+    font-size: 90%;
+    background-color: #aaaaaa;
+}
+
+
+#fundraising {
+    display:none;
+}
+
+#legislative-spotlight {
+    display:none;
+}
+
+#chamber-conference {
+    display:none;
+}
+
+#row-six-join {
+    color:#aaaaaa;
+    background:#111111;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+#row-six-join:hover {
+    color: black;
+    background:#cbb26a;
+}
+
+
+
+
+
+#event {
+    background:#cbb26a;
+}
+
+#event-p {
+    display: none;
+}
+
+#news-p {
+    display: none;
+}
+
+#weather {
+    margin-top: 15%;
+    background:#cbb26a;
+}
+
+
+
+#join {
+    background:#cbb26a;
+}
+
+#middle-aisle-container {
+    display: grid; 
+    margin-top: 20px;
+    height: 250px;
+}
+
+
+
+#hero {
+    grid-row: 1; 
+    margin-left: auto;
+    width: 100%;
+    background:#cbb26a;
+    
+}
+
+#hero img {
+    width: 46%;
+    height: 55.6%;
+    position:absolute;
+
+}
+
+#test-hero-small {
+    margin-left: auto;
+
+}
+
+#test-medium {
+    width: 100%;
+
+}
+
+.hero-large {
+    display:none;
+}
+
+#weather-content {
+    display: none;
+}
+
+#weather {
+    display: none;
+}
+
+#news {
+    background:#cbb26a;
+    margin-left: auto;
+    width: 100%;
+}
+
+.spotlight-1-img, .spotlight-2-img, .spotlight-3-img {
+    height: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#spotlight-1 {
+    margin-top: 90px;
+    grid-row: 7;
+    background:#cbb26a;
+}
+
+#spotlight-2 {
+    grid-row: 4;
+    background:#cbb26a;
+}
+
+#spotlight-3 {
+    grid-row: 5;
+    background:#cbb26a;
+    height: 200px;
+}
+
+.large-view-spotlight  {
+    display: none;
+}
+
+
+.nav-div li {
+    display:none;
+}
+
+
+.nav-dropdown div {
+    display:none;
+}
+
+.open div {
+    display:block;
+    background:#cbb26a;
+    text-align: center;
+    margin-left:25%;
+    margin-right: 25%;
+    margin-top: 10px;
+}
+
+.open div a{
+    text-decoration: none;
+    color:black;
+}
+
+.open div a:hover{
+    text-decoration: none;
+    color: #cbb26a;
+    background:#2a2a2a;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+footer {
+    background: #111111;
+    padding: 10px;
+}
+
+footer p {
+    color:#cbb26a;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+
+}
+}

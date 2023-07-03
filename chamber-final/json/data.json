@@ -1,0 +1,80 @@
+{
+  "companies": [
+    {
+    "company": "Pizzahut",
+    "address": "221 Baker Street",
+    "phone": "801-111-1111",
+    "website": "https://www.pizzahut.com/",
+    "logo": "https://www.pizzahut.com/assets/w/images/Logo_PH_Retro@2x.png",
+    "membership": "Mega Awesome Tier"
+  }, 
+  
+  {
+    "company": "Papa John's",
+    "address": "4 Privet Drive",
+    "phone": "801-222-2222",
+    "website": "https://www.papajohns.com/",
+    "logo": "https://cdn.freebiesupply.com/logos/large/2x/papa-johns-pizza-4-logo-png-transparent.png",
+    "membership": "Very Cool Tier"
+  },
+  {
+    "company": "Little Caesars",
+    "address": "124 Conch Street",
+    "phone": "801-333-3333",
+    "website": "https://littlecaesars.com/en-us/",
+    "logo": "https://pbs.twimg.com/profile_images/1628044839378907138/I4c1Sy6C_400x400.jpg",
+    "membership": "Mega Awesome Tier"
+  },
+  {
+    "company": "Dominos",
+    "address": "12 Grimauld Place",
+    "phone": "801-444-4444",
+    "website": "https://www.dominos.com/en/",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/1200px-Dominos_pizza_logo.svg.png",
+    "membership": "Very Cool Tier"
+  },
+  {
+    "company": "Papa Murphy's",
+    "address": "93 Diagon Ally",
+    "phone": "801-555-5555",
+    "website": "https://www.papamurphys.com/",
+    "logo": "https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/2021-06/PapaMurphylogo.jpg?itok=eWkp22Ux",
+    "membership": "Very Cool Tier"
+  },
+  {
+    "company": "Marco's",
+    "address": "Venus 1234, Sky Pad Apartments",
+    "phone": "801-666-6666",
+    "website": "https://www.marcos.com/",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Marco%27s_Pizza_Logo.svg/1200px-Marco%27s_Pizza_Logo.svg.png",
+    "membership": "Mega Awesome Tier"
+  },
+  {
+    "company":"sbarro",
+    "address": "17 Cherry Tree Lane",
+    "phone": "801-777-7777",
+    "website": "https://sbarro.com/",
+    "logo": "https://assets.simon.com/tenantlogos/8.png",
+    "membership": "Mega Awesome Tier"
+  },
+  {
+    "company": "Round table Pizza",
+    "address": "1313 Webfoot Walk",
+    "phone": "801-888-8888",
+    "website": "https://www.roundtablepizza.com/",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVmp5gksnj1m5NbzAcd1_1gVlo1L_HNfzyuQ&usqp=CAU",
+    "membership": "Patently Mediocre Tier"
+  },
+  {
+    "company":"Blaze Pizza",
+    "address": "P Sherman 42 Wallaby Way, Sydney",
+    "phone": "801-999-9999",
+    "website": "https://www.blazepizza.com/",
+    "logo": "https://s3.amazonaws.com/nomnom.blazepizza.com/global/images/Circular+Blaze+Badge+White+BG.png",
+    "membership": "Mega Awesome Tier"
+
+  }
+
+]
+
+}
