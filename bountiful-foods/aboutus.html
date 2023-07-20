@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bountiful Foods Home</title>
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+    <body>
+        
+        <header>
+            <div id="header-div">
+            <picture>
+                <source srcset="images/logo-color-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/logo-color-medium.webp" media="(min-width: 800px)">
+                <img id="logo" src="images/logo-color-large.png">
+            </picture>
+            
+            <p id="hamburger-div">
+                <a href="#" id="hamburger" onclick="toggleMenu()">☰</a>
+            </p>
+            
+    
+            <nav id="header-nav">
+                <a href="index.html">Home</a>
+                <a href="fresh.html">Fresh</a>
+                <a href="aboutus.html">About Us</a>
+            </nav>
+    
+        </header>
+    </div>
+        <nav class="nav-dropdown">
+            <a href="index.html">Home</a>
+            <a href="fresh.html">Fresh</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+
+
+        <main>
+            <div id="googleMap" style="overflow: wrap;"></div>
+
+            <div id="main-div-aboutus">
+                <div>
+                    <h2>Contact information</h2>
+                    <p><strong>Email:</strong> Bountifulfoods@email.com</p>
+                    <p><strong>Desk Number:</strong> 310-000-0000</p>
+                    <p><strong>Open Hours:</strong> 9-5 Mondays/Fridays</p>
+                    
+                </div>
+
+                <div>
+                    <h2>Where We Came From</h2>
+                    <img src="images\johnyellow.webp" id="aboutus-img" alt="John">
+
+                        <p>Bountiful Foods was founded by John Yellow. Mr. Yellow graduated High School at the age of seven, received his
+                            bachelor's degree in Making Good Health Companies, and invented a cure for ebola in 2021. Having conquered 
+                            every obstacle in life, he set out to overcome the one trial he had yet to face. Nutrition.  
+                        </p>
+                        <p>John Yellow resolved himself to create the greatest smoothie company the world had ever seen. Thus, Bountiful
+                            Foods was born. Bountiful's Foods Specialty Drinks are so incredibly packed with vitamins and minerals, they
+                            are said to cure blindness, cleanse your kidneys, and even get you a girlfriend. 
+                        </p>
+                        <p>John Yellow is currently living in Carlsbad, California with his family.</p>
+                </div>
+            </div>
+
+        </main>
+
+
+
+
+<footer>
+
+    <div id="trademark-div">
+        <picture>
+            <source srcset="images/logo-color-large-no-text.webp" media="(min-width: 1000px)">
+            <source srcset="images/logo-color-large-no-text.webp" media="(min-width: 601px)">
+            <img id="logo-footer" src="images/logo-color-large-no-text.webp">
+        </picture>
+        <p id="trademark">&#169 Bountiful Foods 2023</p>
+        <p id="weather-API">Weather info from Open Weather Map</p>
+        <p id="trademark-map">Map from Google Maps</p>
+    </div>
+
+    <div id="widgets">
+        <p>Follow us!</p>
+        <a href="https://www.twitter.com"><img src="images/twitter.png"></a>
+        <a href="https://www.facebook.com"><img src="images/facebook.png"></a>
+        <a href="https://www.instagram.com"><img src="images/instagram.png"></a>
+    </div>
+
+    <div id="modification-div">
+        <p id="name-location"></p>
+        <p id="last-updated">Test</p>
+    </div>
+
+</footer>
+
+<script src="scripts/javascript.js"></script>
+<script src="scripts/windchill.js"></script>
+<script src="scripts/maps.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFxooOnIXPW0m8pbiutzFc3PeRCKbX97c&callback=myMap"></script>
+
+</body>
+</html>
