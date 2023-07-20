@@ -1,0 +1,264 @@
+@media only screen and (min-width: 600px) {
+    header {
+        background-color: #01ff70;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    #header-nav {
+        
+        padding: 30px 0;
+        display: inline-block;
+
+    }
+
+    #header-nav a{
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+        font-size: 140%;
+        transition: text-decoration 1s;
+
+    }
+
+    #header-nav a:hover{
+        text-decoration: underline;
+        text-decoration: underline solid currentColor;
+        transition: text-decoration 1s;
+        }
+
+    #header-div {
+        text-align: center;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    header picture img, header picture source{
+        width: 40%;
+        width: 35%;
+        top: 0px;
+        display: inline-block;
+
+    }
+
+    .open {
+        display: none;
+    }
+
+    #main-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 280px 280px 330px;
+
+        grid-gap:50px;
+        
+    }
+
+    #summary-info {
+        grid-row: 1;
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2fr 8fr 1fr;
+        min-height: 300px;
+        max-height: 300px;
+        text-align: center;
+    }
+
+    #summary-content {
+        grid-column: 1;
+        grid-row: 3;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    #summary-img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        grid-column: 2;
+        grid-row: 1/4;
+        padding: 2% 0;
+    }
+
+    #summary-headline {
+
+        text-align: center;
+        grid-column: 1;
+        grid-row: 2;
+
+        font-size: 100%;
+    }
+
+    #call-to-action {
+        grid-row: 2;
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2fr 8fr 1fr;
+        min-height: 270px;
+        max-height: 270px;
+
+    }
+
+    #action-img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        float: right;
+        grid-column: 1;
+        grid-row: 1/4;
+        display: block;
+        padding: 1% 0;
+    }
+
+    #action-headline {
+        text-align: center;
+        grid-column: 2;
+        grid-row: 1;
+        
+    }
+
+    #action-content {
+        text-align: center;
+        grid-column: 2;
+        grid-row: 2;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    #submission-info {
+        grid-row: 3;
+        height: 101%;
+    }
+
+    #hero-image {
+        margin-bottom: 20px;
+    }
+
+    #weather-container {
+        grid-row: 3;
+        height: 101%;
+    }
+
+    #weather-today-container {
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 50%;
+    }
+    
+    #forecast-weather-container {
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 50%;
+        padding: 5px;
+    }
+
+    
+
+    #trademark {
+        font-size: 80%;
+    }
+
+    #widgets p {
+        font-size: 100%;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+    }
+
+    #modification-div p {
+        padding-right: 10px;
+        font-size: 80%;
+    }
+
+    #last-updated, #name-location {
+        font-size: 80%;
+        text-align: center;
+        
+    }
+
+    #widgets {
+        text-align: center;
+        padding: 20% 0;
+    }
+    #widgets img {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #weather-API {
+        font-size: 60%;
+    }
+
+    .output {
+
+        font-size: 15px;
+
+    }
+
+
+    body {
+        background-color: #001f3f;
+    }    
+    
+    #fresh-main div textarea {
+        height: 75px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 200%;
+    }
+
+    #colorful-straw {
+        max-width: 100%;
+        max-height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #googleMap {
+        width:100%;
+        height:400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #main-div-aboutus div{
+        background-color: #3bff90;;
+        margin-bottom: 20px;
+    }
+
+    #main-div-aboutus h2{
+        text-align: center;
+        padding: 20px;
+        font-family: 'Playfair Display', serif;
+    }
+
+    #main-div-aboutus p{
+        text-align: center;
+        padding: 10px;
+        font-family: 'Source Sans 3', sans-serif;
+    }
+
+    #aboutus-img {
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    footer {
+        margin-top: 40px;
+    }
+
+    #trademark-map {
+        text-align: center;
+        font-size: 60%;
+    }
+
+    }

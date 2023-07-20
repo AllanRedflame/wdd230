@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&Source+Sans+3:wght@300;400&display=swap');
+
+
+header picture img, header picture source{
+    display: block;
+    width: 40%;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+
+#main-div div p { 
+    text-align: center; 
+}
+
+
+header, footer {
+    background-color: #01ff70;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+body {
+    background-color: #001f3f;
+}
+
+#hamburger-div {
+    text-align: center;
+}
+
+#hamburger {
+    text-decoration: none;
+    color: black;
+    font-size: 175%;
+    margin-top: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+#hamburger:hover, #hamburger:focus, #hamburger:active {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.nav-dropdown a{
+    display: none;
+}
+
+.open a{
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #01ff70;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.open a:hover{
+    background-color: #3bff90;
+    font-size: 120%;
+}
+
+.open {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Playfair Display', serif;
+
+}
+
+#hero-container {
+    text-align: center;
+}
+
+#hero-image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#main-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 170px 170px;
+    grid-gap: 20px;
+    
+}
+
+footer {
+    margin-top: 20px;
+}
+
+
+
+#colorful-straw {
+    max-width: 100%;
+    max-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#main-div div {
+    background-color: #3bff90;
+
+}
+
+/*font-family: 'Source Sans 3', sans-serif;*/
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer picture img, footer picture source {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+#trademark-div {
+    padding: 20% 0;
+}
+
+#trademark {
+    font-size: 10%;
+    text-align: center;
+    text-decoration: underline;
+    padding: 5px;
+    font-family: 'Playfair Display', serif;
+}
+
+#widgets img {
+    width: 15%;
+    padding: 5px;
+}
+
+#widgets {
+    text-align: center;
+    padding: 20% 0;
+
+}
+
+#summary-headline {
+    text-align: center;
+    font-size: 70%;
+}
+
+#action-headline {
+    text-align: center;
+    font-size: 70%;
+}
+
+#action-content {
+    padding: 20px;
+}
+
+#modification-div {
+    vertical-align: middle;
+    padding: 20% 0;
+    font-family: 'Playfair Display', serif;
+}
+
+#widgets p {
+    font-size: 60%;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+#weather-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#modification-div {
+    padding: 20% 0;
+    margin-top: 10%;
+}
+
+#weather-today-container {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 10%;
+}
+
+#forecast-weather-container {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 10%;
+}
+
+#aboutus-img {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#weather-API {
+    font-size: 20%;
+    text-align: center;
+}
+
+#weather-headline {
+    text-decoration: underline;
+}
+
+#forecast-headline {
+    text-decoration: underline;
+
+}
+
+#modification-div p {
+    padding-right: 5px;
+    font-size: 45%;
+}
+
+#last-updated, #name-location {
+    font-size: 20%;
+    text-align: center;
+    
+}
+
+#fresh-main div {
+    background: #3bff90;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 5px #060606);
+}
+
+#fresh-main div input, #fresh-main div select{
+    max-width: 70%;
+    height: 30px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+}
+
+select {
+    max-width: 50%;
+}
+
+#fresh-main div textarea {
+    height: 50px;
+}
+
+#fresh-main div label{
+    text-align: center;
+}
+
+#h1-div {
+    text-align: center;
+
+}
+
+#h1-div h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 90%;
+}
+
+#h1-div p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 50%;
+}
+
+#submit-button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#submit-button {
+    width: 100%;
+    border-radius: 15px;
+    background-color: aliceblue;
+
+}
+
+
+#summary-content {
+    padding: 20px;
+}
+
+.output {
+
+    display: none;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+    background-color: #3bff90;
+    margin-bottom: 40px;
+    padding: 20px;
+
+}
+
+.form-closed {
+    display: none;
+}
+
+#output p {
+    font-size: 50%;
+}
+
+.output-open {
+    
+
+    display: block;
+}
+
+#aboutus-img {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#main-div-aboutus h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 150%;
+    font-family: 'Playfair Display', serif;
+}
+
+#main-div-aboutus p{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+#main-div-aboutus div{
+    background-color: #3bff90;;
+    margin-bottom: 20px;
+    filter: drop-shadow(5px 5px 5px #060606);
+}
+
+#trademark-map {
+    text-align: center;
+    font-size: 30%;
+}
+
+@media screen and (max-width: 600px) {
+    #header-nav {
+        display: none;
+    }  
+    
+    header picture img, header picture source {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #call-to-action img {
+        display: none;
+    }
+
+    
+    #summary-img {
+        display:none;
+    }
+
+    #main-div div p {
+        font-size: 50%;
+        text-align: center;
+    }
+
+
+}
+

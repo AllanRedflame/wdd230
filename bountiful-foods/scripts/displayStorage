@@ -1,0 +1,18 @@
+let displayStorage = function() {
+    orders = localStorage.getItem("orders");
+
+    if (localStorage.getItem("orders") == null) {
+        //pass
+    }
+    else if (orders.length == 0) {
+        outputParagraph = document.getElementById("submission-count");
+        outputParagraph.innerHTML = `You have created ${orders.length + 1} drink.`;
+    }
+    else {
+        outputParagraph = document.getElementById("submission-count");
+        outputParagraph.innerHTML = `You have created ${orders.length + 1} drinks.`;
+    }
+
+}
+
+displayStorage();
